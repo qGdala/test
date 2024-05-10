@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'NaikaiFont-Bold';
+    src: url('font/NaikaiFont-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NaikaiFont-ExtraLight';
+    src: url('font/NaikaiFont-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NaikaiFont-Light';
+    src: url('font/NaikaiFont-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NaikaiFont-Regular-Lite';
+    src: url('font/NaikaiFont-Regular-Lite.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NaikaiFont-Regular';
+    src: url('font/NaikaiFont-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NaikaiFont-SemiBold';
+    src: url('font/NaikaiFont-SemiBold.ttf') format('truetype');
+}
+
+body {
+    font-family: 'NaikaiFont-Regular', 'NaikaiFont-Regular-Lite', 'NaikaiFont-SemiBold', 'NaikaiFont-Light', 'NaikaiFont-ExtraLight', 'NaikaiFont-Bold', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6; /* 設置底色為粉紅色 */
+    position: relative; /* 讓頁面的滾動不影響 header 的位置 */
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: fixed; /* 將 header 固定在頂部 */
+    width: 100%; /* 設置 header 寬度為 100% */
+    top: 0; /* 將 header 定位在頂部 */
+    z-index: 1000; /* 設置 z-index 以確保 header 位於所有內容的上方 */
+}
+
+#sssscake {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    margin-right: 20px
+}
+
+#shopping-cart {
+    margin-left: auto; /* 將購物車置於最右邊 */
+    margin-right: 300px; /* 與其他元素保持一定的間距 */
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* 將內容分散排列 */
+    align-items: center; /* 垂直置中 */
+}
+
+.header-links {
+    display: flex; /* 將連結設置為 flex 容器 */
+    align-items: center; /* 垂直置中 */
+}
+
+.header-links a {
+    margin-left: 20px; /* 調整連結之間的間距 */
+}
+
+header h1 {
+    margin: 0;
+    color: #bf360c;
+}
+
+nav {
+    background-color: #ffffff; 
+    text-align: center; 
+    padding: 5px 0; 
+    font-family: 'NaikaiFont-Regular', 'NaikaiFont-Regular-Lite', 'NaikaiFont-SemiBold', 'NaikaiFont-Light', 'NaikaiFont-ExtraLight', 'NaikaiFont-Bold', Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: block;
+    color: #000000; 
+    text-decoration: none;
+    font-size: 1.5em; 
+    transition: font-size 0.2s; /* 添加文字放大效果 */
+}
+
+nav ul li a:hover {
+    font-size: 2.3em; /* 滑鼠碰到但是未點擊時，放大文字 */
+}
+
+main {
+    padding: 20px;
+    margin-top: 100px; /* 調整 main 的上邊距以避免被 header 覆蓋 */
+}
+
+footer {
+    background-color: #ffccbc;
+    padding: 10px; 
+    text-align: center; 
+    width: 100%; 
+    bottom: 0;
+}
+
+#desserts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 1200px; /* 设置容器宽度为 400px */
+    max-width: 80%; /* 设置容器最大宽度为父容器的 80% */
+    margin: 0 auto; /* 居中容器 */
+    background-color: #ffffff; /* 白色背景 */
+}
+
+#desserts-spacer {
+    height: 48px; /* 设置空行的高度 */
+}
+
+
+.dessert-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%; /* 讓每組資訊佔滿容器寬度 */
+    padding: 60px; /* 增加每組資訊的內邊距 */
+    box-sizing: border-box; /* 讓內邊距和邊框計算在內容寬度內 */
+}
+
+.dessert-image {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 200px;
+}
+
+.dessert-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.dessert-info h2 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.dessert-info p {
+    margin: 0;
+}
+
+.dessert-description {
+    flex-grow: 2;
+    margin-left: 20px;
+}
+
+
+.spacer { 
+    height: 240px; /* 調整空行的高度 */
+}
