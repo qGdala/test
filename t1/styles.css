@@ -1,0 +1,100 @@
+#sssscake {
+    width: 200px; /* 調整圖片的寬度 */
+    height: 200px; /* 調整圖片的高度 */
+    border-radius: 50%; /* 將圖片設置為圓形 */
+    /*margin-right: 200px;  圖片與文字之間的間距 */
+}
+
+@font-face {
+    font-family: 'NaikaiFont-Bold';
+    src: url('font/NaikaiFont-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NaikaiFont-ExtraLight';
+    src: url('font/NaikaiFont-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NaikaiFont-Light';
+    src: url('font/NaikaiFont-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NaikaiFont-Regular-Lite';
+    src: url('font/NaikaiFont-Regular-Lite.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NaikaiFont-Regular';
+    src: url('font/NaikaiFont-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'NaikaiFont-SemiBold';
+    src: url('font/NaikaiFont-SemiBold.ttf') format('truetype');
+}
+
+body {
+    font-family: 'NaikaiFont-Regular', 'NaikaiFont-Regular-Lite', 'NaikaiFont-SemiBold', 'NaikaiFont-Light', 'NaikaiFont-ExtraLight', 'NaikaiFont-Bold', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    
+}
+ 
+header {
+    background-color: #ffffff; /* 白色背景 */
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #bf360c;
+}
+
+nav {
+    background-color: #ffffff; /* 將導覽列背景顏色設為白色 */
+    text-align: center; /* 水平置中 */
+    padding: 10px 0; /* 增加上下間距 */
+    font-family: 'NaikaiFont-Regular', 'NaikaiFont-Regular-Lite', 'NaikaiFont-SemiBold', 'NaikaiFont-Light', 'NaikaiFont-ExtraLight', 'NaikaiFont-Bold', Arial, sans-serif;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* 水平排列連結 */
+    margin-right: 20px; /* 調整連結間距 */
+}
+
+nav ul li a {
+    display: block;
+    color: #000000; /* 設置連結文字顏色 */
+    text-decoration: none;
+    transition: font-size 0.2s; /* 添加文字放大效果 */
+}
+
+nav ul li a:hover {
+    font-size: 2em; /* 滑鼠碰到但是未點擊時，稍微放大文字 */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #ffccbc;
+    padding: 10px; 
+    text-align: center; 
+    width: 100%; 
+    bottom: 0;
+
+}
+
