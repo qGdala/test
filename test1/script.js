@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const dessertsSection = document.getElementById("desserts");
 
     const desserts = [
-        { name: "旺萊桂花韻", price: " $ 1360", image: "../test1/cakebase/旺來桂花釀烏龍.png", description: "-⋆- ~!@#$%^&*()_+<br>-⋆- a!@#$%^&*()_+<br>-⋆- b!@#$%^&*()_+<br>-⋆- c!@#$%^&*()_+" },
+        { name: "旺萊桂花韻", price: " $ 1360", image: "../test1/cakebase/OsmanthusOolong.png", description: "-⋆- ~!@#$%^&*()_+<br>-⋆- a!@#$%^&*()_+<br>-⋆- b!@#$%^&*()_+<br>-⋆- c!@#$%^&*()_+" },
         { name: " Mr.伯爵 ", price: " $ 1460 ", image: "../test1/cakebase/MrCount.png", description: "-⋆-  伯爵戚風<br>-⋆-  伯爵奶凍<br>-⋆-  手熬伯爵奶醬<br>-⋆-  日本蜜柑<br>-⋆-  伯爵香堤" },
-        { name: " 可可貴妃 ", price: " $ 1560 ", image: "../test1/cakebase/可可貴妃.png", description: "-⋆-  法芙娜可可戚風<br>-⋆-  巧克力慕斯<br>-⋆-  新鮮草莓<br>-⋆-  巧克力香堤夾餡<br>-⋆-  原味香堤抹面" },
+        { name: " 可可貴妃 ", price: " $ 1560 ", image: "../test1/cakebase/CocoaImperialConcubine.png", description: "-⋆-  法芙娜可可戚風<br>-⋆-  巧克力慕斯<br>-⋆-  新鮮草莓<br>-⋆-  巧克力香堤夾餡<br>-⋆-  原味香堤抹面" },
     ];
 
     desserts.forEach((dessert, index) => {
