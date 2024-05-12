@@ -28,6 +28,110 @@
     src: url('font/NaikaiFont-SemiBold.ttf') format('truetype');
 }
 
+
+@media only screen and (max-width: 700px) {
+    #sssscake {
+        width: 60px; 
+        height: 60px; 
+        border-radius: 50%; 
+        margin-right: 20px
+    }
+
+    
+    #shopping-cart {
+        margin-left: auto;
+        width: 30px; /* 调整购物车的宽度 */
+        height: 30px; /* 调整购物车的高度 */
+        margin-right: 28px!important; /* 调整购物车的右边距 */
+    }
+
+    nav ul li {
+        display: inline-block !important;
+        margin-right: 10px !important;
+        font-size: 0.8em !important;
+    }
+    
+
+
+    /* 将 main 中的文字大小缩小 */
+    main {
+        font-size: 10px; /* 你可以根据需要设置合适的大小 */
+    }
+
+    body {
+        font-family: 'NaikaiFont-Regular', 'NaikaiFont-Regular-Lite', 'NaikaiFont-SemiBold', 'NaikaiFont-Light', 'NaikaiFont-ExtraLight', 'NaikaiFont-Bold', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffe6e6; /* 設置底色為粉紅色 */
+        position: relative; /* 讓頁面的滾動不影響 header 的位置 */
+        overflow-x: hidden; /* 隱藏水平滾動條 */
+    }
+    
+    /* 将 footer 中的文字大小缩小 */
+    footer p {
+        font-size: 10px; /* 你可以根据需要设置合适的大小 */
+    }
+
+    #desserts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        max-width: 80%; 
+        margin: 0 auto; 
+        background-color: #ffffff; 
+    }
+    
+
+    .dessert-image {
+        max-width: 95%; /* 图像的最大宽度为其父容器的100% */
+        height: auto; /* 图像的高度根据宽度自动调整 */
+        border-radius: 20px;
+        margin-right: 200px;
+    }
+
+    .description-container {
+        margin-left: 20px!important;
+        font-size: 28px!important;
+    }
+    
+    .dessert-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-grow: 1;
+    }
+    
+    .dessert-info h2 {
+        margin: 0;
+        margin-bottom: 20px!important;
+        font-size: 24px!important;
+    }
+    
+    .dessert-info p {
+        margin: 0;
+        font-size: 12px!important;
+    }
+    
+    .dessert-info span.price {
+        font-size: 10px!important;
+    }
+    
+    .dessert-description {
+        flex-grow: 2;
+        margin-left: 10px!important;
+    }
+    .spacer { 
+        height: 180px!important; 
+    }
+    
+}
+
+
+
+
+
+
 body {
     font-family: 'NaikaiFont-Regular', 'NaikaiFont-Regular-Lite', 'NaikaiFont-SemiBold', 'NaikaiFont-Light', 'NaikaiFont-ExtraLight', 'NaikaiFont-Bold', Arial, sans-serif;
     margin: 0;
@@ -84,7 +188,7 @@ nav {
     background-color: #ffffff; 
     text-align: center; 
     padding: 5px 0; 
-    font-family: 'NaikaiFont-Regular', 'NaikaiFont-Regular-Lite', 'NaikaiFont-SemiBold', 'NaikaiFont-Light', 'NaikaiFont-ExtraLight', 'NaikaiFont-Bold', Arial, sans-serif;
+    font-family:  'NaikaiFont-Regular-Lite', Arial, sans-serif;
 }
 
 nav ul {
@@ -96,6 +200,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     margin-right: 20px;
+    
 }
 
 nav ul li a {
@@ -103,7 +208,7 @@ nav ul li a {
     color: #000000; 
     text-decoration: none;
     font-size: 1.5em; 
-    transition: font-size 0.2s; /* 添加文字放大效果 */
+    transition: font-size 0.2s; 
 }
 
 nav ul li a:hover {
@@ -116,28 +221,39 @@ main {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
     background-color: #ffccbc;
     padding: 10px; 
     text-align: center; 
     width: 100%; 
-    bottom: 0;
 }
+#desserts main p {
+    text-align: center;
+}
+
 
 #desserts {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    width: 1200px; /* 设置容器宽度为 400px */
-    max-width: 80%; /* 设置容器最大宽度为父容器的 80% */
-    margin: 0 auto; /* 居中容器 */
-    background-color: #ffffff; /* 白色背景 */
+    width: 1200px; 
+    max-width: 80%; 
+    margin: 0 auto; 
+    background-color: #ffffff; 
 }
 
 #desserts-spacer {
     height: 48px; /* 设置空行的高度 */
 }
 
+.centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+}
 
 .dessert-card {
     display: flex;
@@ -157,6 +273,10 @@ footer {
     margin-right: 200px;
 }
 
+.description-container {
+    font-size: 40px;
+}
+
 .dessert-info {
     display: flex;
     flex-direction: column;
@@ -167,10 +287,16 @@ footer {
 .dessert-info h2 {
     margin: 0;
     margin-bottom: 20px;
+    font-size: 60px;
 }
 
 .dessert-info p {
     margin: 0;
+    font-size: 32px;
+}
+
+.dessert-info span.price {
+    font-size: 28px;
 }
 
 .dessert-description {
@@ -180,5 +306,7 @@ footer {
 
 
 .spacer { 
-    height: 240px; /* 調整空行的高度 */
+    height: 260px; /* 調整空行的高度 */
 }
+
+
