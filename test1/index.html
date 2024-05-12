@@ -2,34 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> <!-- 告诉浏览器根据设备宽度进行缩放 -->
     <title>嗜糕</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     <header>
         <div class="header-container">
             <img src="../test1/cakebase/sssscake.png" alt="logo" id="sssscake">
-            <div class="header-links">
-                <a href="#">語言</a>
-                <a href="#">購物車</a>
-            </div>
+        <div class="header-links">
+            <img src="../test1/cakebase/shopping-cart.png" alt="shopping-cart" id="shopping-cart">
+        </div>
         </div>
         <nav class="custom-font">
             <ul>
-                <li><a href="#">  甜 點 </a></li>
-                <li><a href="#"> 嗜糕起源 </a></li>
-                <li><a href="#"> 付款方式 </a></li>
-                <li><a href="#"> 聯絡資訊 </a></li>
+                <li><a href="index.html">甜 點</a></li>
+                <li><a href="about.html">嗜糕起源</a></li>
+                <li><a href="payment.html">付款方式</a></li>
+                <li><a href="contact.html">聯絡資訊</a></li>
+
             </ul>
-        </nav>    
+        </nav>
+        
     </header> 
     <div id="desserts-spacer"></div>
 
     <div id="desserts">
-    <main class="custom-font" id="desserts">
-        <!-- 這裡將會動態地插入甜點的內容 -->
-    </main>
+        <main class="custom-font" id="desserts">
+            <!-- 這裡將會動態地插入甜點的內容 -->
+        </main>
     <footer class="custom-font">
         <p>&copy; 2024 嗜 糕</p>
     </footer>
