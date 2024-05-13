@@ -40,9 +40,9 @@
     
     #shopping-cart {
         margin-left: auto;
-        width: 30px; /* 调整购物车的宽度 */
-        height: 30px; /* 调整购物车的高度 */
-        margin-right: 28px!important; /* 调整购物车的右边距 */
+        width: 30px; 
+        height: 30px; 
+        margin-right: 28px!important; 
     }
 
     nav ul li {
@@ -51,11 +51,8 @@
         font-size: 0.8em !important;
     }
     
-
-
-    /* 将 main 中的文字大小缩小 */
     main {
-        font-size: 10px; /* 你可以根据需要设置合适的大小 */
+        font-size: 10px; 
     }
 
     body {
@@ -67,9 +64,8 @@
         overflow-x: hidden; /* 隱藏水平滾動條 */
     }
     
-    /* 将 footer 中的文字大小缩小 */
     footer p {
-        font-size: 10px; /* 你可以根据需要设置合适的大小 */
+        font-size: 10px;
     }
 
     #desserts {
@@ -84,8 +80,8 @@
     
 
     .dessert-image {
-        max-width: 95%; /* 图像的最大宽度为其父容器的100% */
-        height: auto; /* 图像的高度根据宽度自动调整 */
+        max-width: 95%;
+        height: auto; 
         border-radius: 20px;
         margin-right: 200px;
     }
@@ -136,7 +132,7 @@ body {
     font-family: 'NaikaiFont-Regular', 'NaikaiFont-Regular-Lite', 'NaikaiFont-SemiBold', 'NaikaiFont-Light', 'NaikaiFont-ExtraLight', 'NaikaiFont-Bold', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffe6e6; /* 設置底色為粉紅色 */
+    background-color: #ffe6e6; 
     position: relative; /* 讓頁面的滾動不影響 header 的位置 */
 }
 
@@ -145,10 +141,10 @@ header {
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
-    position: fixed; /* 將 header 固定在頂部 */
-    width: 100%; /* 設置 header 寬度為 100% */
-    top: 0; /* 將 header 定位在頂部 */
-    z-index: 1000; /* 設置 z-index 以確保 header 位於所有內容的上方 */
+    position: fixed;
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
 }
 
 #sssscake {
@@ -159,24 +155,24 @@ header {
 }
 
 #shopping-cart {
-    margin-left: auto; /* 將購物車置於最右邊 */
-    margin-right: 300px; /* 與其他元素保持一定的間距 */
+    margin-left: auto;
+    margin-right: 300px;
 }
 
 
 .header-container {
     display: flex;
-    justify-content: space-between; /* 將內容分散排列 */
-    align-items: center; /* 垂直置中 */
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .header-links {
-    display: flex; /* 將連結設置為 flex 容器 */
-    align-items: center; /* 垂直置中 */
+    display: flex; 
+    align-items: center; 
 }
 
 .header-links a {
-    margin-left: 20px; /* 調整連結之間的間距 */
+    margin-left: 20px; 
 }
 
 header h1 {
@@ -212,12 +208,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    font-size: 2.3em; /* 滑鼠碰到但是未點擊時，放大文字 */
+    font-size: 2.3em; /* 碰到，放大文字 */
 }
 
 main {
     padding: 20px;
-    margin-top: 100px; /* 調整 main 的上邊距以避免被 header 覆蓋 */
+    margin-top: 100px; 
 }
 
 footer {
@@ -245,7 +241,7 @@ footer {
 }
 
 #desserts-spacer {
-    height: 48px; /* 设置空行的高度 */
+    height: 48px; 
 }
 
 .centered-text {
@@ -261,9 +257,9 @@ footer {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    width: 100%; /* 讓每組資訊佔滿容器寬度 */
-    padding: 60px; /* 增加每組資訊的內邊距 */
-    box-sizing: border-box; /* 讓內邊距和邊框計算在內容寬度內 */
+    width: 100%; 
+    padding: 60px; 
+    box-sizing: border-box; 
 }
 
 .dessert-image {
@@ -306,7 +302,7 @@ footer {
 
 
 .spacer { 
-    height: 260px; /* 調整空行的高度 */
+    height: 260px; 
 }
 
 
